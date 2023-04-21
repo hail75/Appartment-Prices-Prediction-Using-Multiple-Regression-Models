@@ -7,4 +7,4 @@ Price prediction for appartments in Hoang Mai District using multiple regression
 * Run cmd in the unzipped folder.
 * type `python regression_models.py` and press 'Enter'.
 ## Contributors
-@hhiep1504, @vdhugn
+[@hhiep1504](https://github.com/hhiep1504?tab=repositories), [@vdhugn](https://github.com/vdhugn)
