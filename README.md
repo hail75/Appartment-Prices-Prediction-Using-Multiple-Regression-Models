@@ -5,6 +5,6 @@ Price prediction for appartments in Hoang Mai District using multiple regression
 * Required libraries: numpy, pandas, mathplotlib, sklearn.
 * Install and unzip the repository.
 * Run cmd in the unzipped folder.
-* type `python Regression Models.py` and press 'Enter'.
+* type `python regression_models.py` and press 'Enter'.
 ## Contributors
 @hhiep1504, @vdhugn
