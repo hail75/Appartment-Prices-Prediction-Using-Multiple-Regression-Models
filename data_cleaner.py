@@ -12,5 +12,5 @@ for i in range(len(data)):
     data.loc[i, 'price'] = round(data.loc[i, 'price'], 2) 
 data = data[data['bedroom'] < 5]
 data = data[data['price'] < 20]
-data.to_csv('dataset.csv')                            
+data.to_csv('dataset.csv', index=False)                            
 print(data)
