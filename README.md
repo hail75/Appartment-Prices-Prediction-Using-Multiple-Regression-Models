@@ -1,6 +1,6 @@
 # Appartment Prices Prediction Using Multiple Regression Models
 
-Price prediction for appartments in Hoang Mai District using multiple regression models: linear regression, k-nearest neighbors regression, random forest regression. Comparison included. A group project for the course IT3910E *Machine Learning*. Dataset was crawled at <https://alonhadat.com.vn/> on April 19th, 2023.
+Comparative analysis of linear regression, k-nearest neighbors regression, and random forest regression models for predicting apartment prices in Hoang Mai District, utilizing the sklearn library. A group project for the course IT3910E *Machine Learning*. The dataset was crawled at <https://alonhadat.com.vn/> on April 19th, 2023 through our own web crawling efforts.
 
 ![Figure 2](https://github.com/hail75/Appartment-Prices-Prediction-Using-Multiple-Regression-Models/blob/main/figures/Figure_2.gif)
 
