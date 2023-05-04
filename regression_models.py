@@ -117,7 +117,7 @@ def lr_graph():
     plt.plot(constant, ridge, label="Ridge")
     plt.plot(constant, lasso, label="LASSO")
     plt.legend()
-    plt.title(("Figure 1. Accuracy of Ridge and LASSO regresion"))
+    plt.title("Figure 1. Accuracy of Ridge and LASSO regression")
     plt.xlabel("λ")
     plt.ylabel("Mean Absolute Percentage Error (%)")
     plt.show()
@@ -144,11 +144,7 @@ def knr_graph():
     plt.plot(k, knru, label="Uniform weight")
     plt.plot(k, knrw, label="Distance weight")
     plt.legend()
-    plt.title(
-        (
-            "Figure 2. Accuracy of k-nearest neighbors regression using Euclidean distance"
-        )
-    )
+    plt.title("Figure 2. Accuracy of k-nearest neighbors regression using Euclidean distance")
     plt.xlabel("k")
     plt.ylabel("Mean Absolute Percentage Error (%)")
     plt.show()
@@ -166,19 +162,23 @@ def rfr_graph():
     rfr = [row[1] for row in rfr_result]
 
     plt.plot(max_depth, rfr)
-    plt.title(("Figure 3. Accuracy of random forest regression using 100 tree"))
+    plt.title("Figure 3. Accuracy of random forest regression using 100 tree")
     plt.xlabel("Maximum depth of a tree")
     plt.ylabel("Mean Absolute Percentage Error (%)")
     plt.show()
 
 
-A = input(
-    "Press a number to see the graph. "
-    "[1] Linear Regression; [2] K-nearest Neighbors Regression; [3] Random Forest Regression: "
-)
-if A == "1":
-    lr_graph()
-if A == "2":
-    knr_graph()
-if A == "3":
-    rfr_graph()
+def main():
+    a = input(
+        "Press a number to see the graph. "
+        "[1] Linear Regression; [2] K-nearest Neighbors Regression; [3] Random Forest Regression: "
+    )
+    if a == "1":
+        lr_graph()
+    if a == "2":
+        knr_graph()
+    if a == "3":
+        rfr_graph()
+
+
+main()
