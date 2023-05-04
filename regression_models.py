@@ -101,7 +101,7 @@ def random_forest_regression(x_train, x_test, y_train, y_test, n):
 def lr_graph():
     lr_result = []
 
-    for i in range(21):
+    for i in range(1, 21):
         lr_result.append(
             [
                 i,
@@ -173,7 +173,8 @@ def rfr_graph():
 
 
 A = input(
-    "Press a number to see the graph. [1] Linear Regression; [2] K-nearest Neighbors Regression; [3] Random Forest Regression: "
+    "Press a number to see the graph. "
+    "[1] Linear Regression; [2] K-nearest Neighbors Regression; [3] Random Forest Regression: "
 )
 if A == "1":
     lr_graph()
