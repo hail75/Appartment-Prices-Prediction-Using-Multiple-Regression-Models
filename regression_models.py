@@ -33,7 +33,7 @@ def ridge_regression(x_train, x_test, y_train, y_test, n):
     return y_pred_rounded, mape
 
 
-def lasso_regresion(x_train, x_test, y_train, y_test, n):
+def lasso_regression(x_train, x_test, y_train, y_test, n):
     model = Lasso(alpha=n / 10)
 
     # train the model
@@ -49,7 +49,7 @@ def lasso_regresion(x_train, x_test, y_train, y_test, n):
     return y_pred_rounded, mape
 
 
-def k_neightbor_regression_unweighted(x_train, x_test, y_train, y_test, n):
+def k_neighbor_regression_unweighted(x_train, x_test, y_train, y_test, n):
     model = KNeighborsRegressor(n_neighbors=n, weights="uniform")
 
     # train the model
@@ -65,7 +65,7 @@ def k_neightbor_regression_unweighted(x_train, x_test, y_train, y_test, n):
     return y_pred_rounded, mape
 
 
-def k_neightbor_regression_weighted(x_train, x_test, y_train, y_test, n):
+def k_neighbor_regression_weighted(x_train, x_test, y_train, y_test, n):
     model = KNeighborsRegressor(n_neighbors=n, weights="distance")
 
     # train the model
@@ -106,7 +106,7 @@ def lr_graph():
             [
                 i,
                 ridge_regression(x_train, x_test, y_train, y_test, i)[1],
-                lasso_regresion(x_train, x_test, y_train, y_test, i)[1],
+                lasso_regression(x_train, x_test, y_train, y_test, i)[1],
             ]
         )
 
@@ -130,10 +130,10 @@ def knr_graph():
         knr_result.append(
             [
                 i,
-                k_neightbor_regression_unweighted(x_train, x_test, y_train, y_test, i)[
+                k_neighbor_regression_unweighted(x_train, x_test, y_train, y_test, i)[
                     1
                 ],
-                k_neightbor_regression_weighted(x_train, x_test, y_train, y_test, i)[1],
+                k_neighbor_regression_weighted(x_train, x_test, y_train, y_test, i)[1],
             ]
         )
 
