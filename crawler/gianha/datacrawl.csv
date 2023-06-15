@@ -1,0 +1,441 @@
+area,bedroom,price,floor,road-width,parking
+ 81 m,2 phòng ngủ," 3,2 tỷ ",5 lầu,8m,chỗ để xe
+ 111 m,2 phòng ngủ," 2,68 tỷ ",3 lầu,20m,
+ 70 m,2 phòng ngủ," 2,15 tỷ ",6 lầu,30m,
+ 83 m,2 phòng ngủ," 2,9 tỷ ",10 lầu,10m,
+ 70 m,2 phòng ngủ," 2,8 tỷ ",20 lầu,30m,
+ 74 m,2 phòng ngủ," 2,65 tỷ ",20 lầu,30m,
+ 130 m,3 phòng ngủ," 3,8 tỷ ",20 lầu,15m,chỗ để xe
+ 123 m,3 phòng ngủ," 4,8 tỷ ",10 lầu,30m,chỗ để xe
+ 92 m,3 phòng ngủ," 3,5 tỷ ",6 lầu,10m,
+ 57 m,2 phòng ngủ," 1,8 tỷ ",,0m,
+ 62 m,2 phòng ngủ," 2,3 tỷ ",1 lầu,20m,
+ 67 m,2 phòng ngủ, 45 triệu / m,32 lầu,,chỗ để xe
+ 88 m,2 phòng ngủ," 2,95 tỷ ",,,chỗ để xe
+ 66 m,2 phòng ngủ," 2,6 tỷ ",,0m,
+ 90 m,3 phòng ngủ," 3,05 tỷ ",1 lầu,5m,chỗ để xe
+ 80 m,3 phòng ngủ," 2,62 tỷ ",1 lầu,20m,
+ 90 m,3 phòng ngủ," 3,7 tỷ ",1 lầu,20m,
+ 139 m,3 phòng ngủ," 3,6 tỷ ",27 lầu,"4,5m",
+ 86 m,," 3,3 tỷ ",,6m,chỗ để xe
+ 53 m,2 phòng ngủ, 2 tỷ ,,0m,
+ 78 m,2 phòng ngủ," 2,9 tỷ ",,,chỗ để xe
+ 80 m,2 phòng ngủ," 3,1 tỷ ",,,chỗ để xe
+ 65 m,2 phòng ngủ," 1,75 tỷ ",,5m,
+ 190 m,3 phòng ngủ," 3,55 tỷ ",18 lầu,80m,chỗ để xe
+ 32 m,1 phòng ngủ, 630 triệu ,1 lầu,,
+ 65 m,2 phòng ngủ," 2,84 tỷ ",,16m,chỗ để xe
+ 45 m,3 phòng ngủ," 5,5 tỷ ",1 lầu,15m,chỗ để xe
+ 84 m,18 phòng ngủ," 15,6 tỷ ",8 lầu,3m,
+ 57 m,2 phòng ngủ," 47,5 triệu / m",,30m,
+ 66 m,2 phòng ngủ," 2,8 tỷ ",8 lầu,10m,chỗ để xe
+ 76 m,2 phòng ngủ," 2,9 tỷ ",20 lầu,10m,chỗ để xe
+ 80 m,2 phòng ngủ, 50 triệu / m,29 lầu,,
+ 76 m,2 phòng ngủ," 3,2 tỷ ",1 lầu,,chỗ để xe
+ 80 m,2 phòng ngủ, 30 triệu / m,5 lầu,30m,chỗ để xe
+ 71 m,2 phòng ngủ, 35 triệu / m,16 lầu,,
+ 70 m,2 phòng ngủ, 20 triệu / m,20 lầu,,
+ 125 m,3 phòng ngủ," 3,7 tỷ ",1 lầu,20m,
+ 65 m,2 phòng ngủ," 1,79 tỷ ",33 lầu,15m,chỗ để xe
+ 70 m,2 phòng ngủ," 2,05 tỷ ",12 lầu,14m,
+ 140 m,3 phòng ngủ," 3,65 tỷ ",14 lầu,,chỗ để xe
+ 49 m,1 phòng ngủ," 1,76 tỷ ",1 lầu,6m,chỗ để xe
+ 60 m,2 phòng ngủ," 1,98 tỷ ",1 lầu,,
+ 76 m,3 phòng ngủ," 2,95 tỷ ",1 lầu,,
+ 110 m,5 phòng ngủ," 2,4 tỷ ",3 lầu,5m,chỗ để xe
+ 72 m,2 phòng ngủ," 2,8 tỷ ",21 lầu,,
+ 49 m,1 phòng ngủ," 1,63 tỷ ",15 lầu,,chỗ để xe
+ 57 m,2 phòng ngủ, 220 triệu ,9 lầu,,
+ 80 m,2 phòng ngủ," 2,65 tỷ ",9 lầu,17m,
+ 86 m,2 phòng ngủ," 2,85 tỷ ",1 lầu,1m,chỗ để xe
+ 56 m,2 phòng ngủ, 20 triệu / m,6 lầu,,
+ 61 m,2 phòng ngủ," 2,7 tỷ ",,40m,chỗ để xe
+ 97 m,3 phòng ngủ," 2,77 tỷ ",1 lầu,8m,chỗ để xe
+ 70 m,2 phòng ngủ," 1,8 tỷ ",11 lầu,,
+ 115 m,3 phòng ngủ," 3,65 tỷ ",23 lầu,63m,
+ 62 m,2 phòng ngủ, 3 tỷ ,,0m,
+ 52 m,2 phòng ngủ, 2 tỷ ,,,chỗ để xe
+ 48 m,1 phòng ngủ, 2 tỷ ,,0m,
+ 90 m,3 phòng ngủ," 3,05 tỷ ",12 lầu,30m,
+ 81 m,3 phòng ngủ," 1,8 tỷ ",1 lầu,,
+ 71 m,2 phòng ngủ," 3,2 tỷ ",,,chỗ để xe
+ 70 m,2 phòng ngủ," 2,85 tỷ ",5 lầu,8m,
+ 80 m,2 phòng ngủ," 3,1 tỷ ",16 lầu,10m,
+ 86 m,3 phòng ngủ," 2,75 tỷ ",,,
+ 85 m,3 phòng ngủ, 3 tỷ ,,,
+ 77 m,2 phòng ngủ," 2,3 tỷ ",1 lầu,10m,chỗ để xe
+ 65 m,2 phòng ngủ," 2,7 tỷ ",18 lầu,40m,chỗ để xe
+ 86 m,2 phòng ngủ, 3 tỷ ,,26m,chỗ để xe
+ 120 m,3 phòng ngủ," 3,5 tỷ ",4 lầu,10m,
+ 62 m,2 phòng ngủ," 2,3 tỷ ",15 lầu,,
+ 82 m,2 phòng ngủ," 2,4 tỷ ",1 lầu,2m,
+ 100 m,3 phòng ngủ," 3,6 tỷ ",5 lầu,,chỗ để xe
+ 99 m,3 phòng ngủ," 3,9 tỷ ",,,
+ 72 m,3 phòng ngủ," 1,93 tỷ ",6 lầu,2m,
+ 62 m,2 phòng ngủ," 2,09 tỷ ",12 lầu,,
+ 80 m,2 phòng ngủ," 2,95 tỷ ",15 lầu,17m,
+ 68 m,2 phòng ngủ," 2,6 tỷ ",,,chỗ để xe
+ 99 m,3 phòng ngủ," 3,3 tỷ ",9 lầu,20m,
+ 77 m,3 phòng ngủ," 2,55 tỷ ",10 lầu,20m,
+ 82 m,3 phòng ngủ," 2,65 tỷ ",6 lầu,20m,
+ 69 m,2 phòng ngủ," 2,69 tỷ ",1 lầu,5m,chỗ để xe
+ 76 m,2 phòng ngủ," 2,95 tỷ ",20 lầu,,
+ 65 m,2 phòng ngủ," 2,86 tỷ ",26 lầu,,
+ 69 m,2 phòng ngủ," 2,5 tỷ ",20 lầu,20m,
+ 50 m,2 phòng ngủ, 600 triệu ,6 lầu,,
+ 92 m,3 phòng ngủ," 2,5 tỷ ",12 lầu,,
+ 99 m,3 phòng ngủ," 4,35 tỷ ",5 lầu,10m,
+ 110 m,32 phòng ngủ," 19,9 tỷ ",8 lầu,5m,
+ 67 m,2 phòng ngủ," 1,65 tỷ ",,,
+ 94 m,3 phòng ngủ," 3,79 tỷ ",19 lầu,,
+ 72 m,2 phòng ngủ," 1,99 tỷ ",,,chỗ để xe
+ 91 m,2 phòng ngủ," 2,99 tỷ ",19 lầu,,
+ 70 m,2 phòng ngủ," 2,3 tỷ ",2 lầu,,chỗ để xe
+ 68 m,2 phòng ngủ, 3 tỷ ,21 lầu,,chỗ để xe
+ 93 m,3 phòng ngủ," 2,6 tỷ ",1 lầu,4m,chỗ để xe
+ 80 m,2 phòng ngủ," 2,89 tỷ ",1 lầu,5m,chỗ để xe
+ 75 m,2 phòng ngủ," 2,55 tỷ ",15 lầu,,
+ 91 m,3 phòng ngủ," 3,8 tỷ ",1 lầu,15m,chỗ để xe
+ 55 m,1 phòng ngủ, 2 tỷ ,,,chỗ để xe
+ 74 m,2 phòng ngủ," 2,1 tỷ ",31 lầu,,
+ 99 m,3 phòng ngủ," 3,3 tỷ ",26 lầu,5m,chỗ để xe
+ 70 m,2 phòng ngủ," 3,35 tỷ ",1 lầu,25m,
+ 58 m,2 phòng ngủ," 1,78 tỷ ",21 lầu,,
+ 77 m,3 phòng ngủ," 3,6 tỷ ",1 lầu,30m,chỗ để xe
+ 130 m,2 phòng ngủ, 3 tỷ ,3 lầu,20m,chỗ để xe
+ 63 m,2 phòng ngủ," 1,78 tỷ ",,,
+ 74 m,3 phòng ngủ," 2,15 tỷ ",1 lầu,3m,chỗ để xe
+ 78 m,3 phòng ngủ," 2,05 tỷ ",30 lầu,,chỗ để xe
+ 101 m,3 phòng ngủ," 3,4 tỷ ",17 lầu,,
+ 74 m,2 phòng ngủ," 1,39 tỷ ",,,
+ 85 m,2 phòng ngủ," 2,4 tỷ ",,,
+ 90 m,3 phòng ngủ," 3,49 tỷ ",,,
+ 63 m,2 phòng ngủ," 2,16 tỷ ",21 lầu,,
+ 82 m,2 phòng ngủ," 2,68 tỷ ",1 lầu,10m,chỗ để xe
+ 76 m,3 phòng ngủ," 1,7 tỷ ",10 lầu,,
+ 80 m,2 phòng ngủ," 1,8 tỷ ",12 lầu,,
+ 77 m,3 phòng ngủ," 2,3 tỷ ",10 lầu,,
+ 112 m,3 phòng ngủ," 3,45 tỷ ",1 lầu,3m,chỗ để xe
+ 65 m,2 phòng ngủ," 2,5 tỷ ",,,
+ 54 m,2 phòng ngủ," 2,4 tỷ ",,,
+ 72 m,2 phòng ngủ," 1,65 tỷ ",10 lầu,,
+ 66 m,2 phòng ngủ," 1,47 tỷ ",30 lầu,,
+ 71 m,2 phòng ngủ," 3,35 tỷ ",1 lầu,,
+ 67 m,2 phòng ngủ," 1,48 tỷ ",1 lầu,,
+ 75 m,2 phòng ngủ," 2,4 tỷ ",1 lầu,,
+ 32 m,2 phòng ngủ," 1,1 tỷ ",2 lầu,,chỗ để xe
+ 75 m,17 phòng ngủ," 8,8 tỷ ",8 lầu,5m,chỗ để xe
+ 69 m,2 phòng ngủ," 2,98 tỷ ",,,
+ 57 m,2 phòng ngủ," 1,42 tỷ ",5 lầu,,
+ 62 m,," 2,2 tỷ ",,1m,chỗ để xe
+ 86 m,3 phòng ngủ," 3,55 tỷ ",1 lầu,,
+ 67 m,2 phòng ngủ," 3,1 tỷ ",1 lầu,,
+ 68 m,2 phòng ngủ," 2,7 tỷ ",,,
+ 81 m,3 phòng ngủ," 2,65 tỷ ",6 lầu,,
+ 134 m,3 phòng ngủ," 3,1 tỷ ",,,
+ 71 m,2 phòng ngủ," 1,787 tỷ ",,,
+ 75 m,2 phòng ngủ," 2,85 tỷ ",1 lầu,,chỗ để xe
+ 76 m,2 phòng ngủ," 3,1 tỷ ",1 lầu,30m,chỗ để xe
+ 140 m,3 phòng ngủ," 4,58 tỷ ",1 lầu,30m,chỗ để xe
+ 75 m,2 phòng ngủ, 2 tỷ ,1 lầu,20m,chỗ để xe
+ 62 m,2 phòng ngủ," 1,42 tỷ ",1 lầu,30m,chỗ để xe
+ 71 m,2 phòng ngủ," 2,1 tỷ ",11 lầu,12m,chỗ để xe
+ 62 m,2 phòng ngủ," 1,95 tỷ ",35 lầu,,
+ 70 m,2 phòng ngủ," 1,85 tỷ ",1 lầu,,
+ 62 m,2 phòng ngủ," 3,1 tỷ ",1 lầu,,
+ 95 m,3 phòng ngủ," 2,9 tỷ ",1 lầu,,
+ 75 m,2 phòng ngủ," 2,46 tỷ ",1 lầu,,
+ 76 m,3 phòng ngủ," 2,56 tỷ ",,,
+ 71 m,3 phòng ngủ," 2,2 tỷ ",,,
+ 88 m,3 phòng ngủ," 2,45 tỷ ",6 lầu,,chỗ để xe
+ 93 m,3 phòng ngủ," 3,95 tỷ ",,20m,
+ 62 m,2 phòng ngủ," 1,7 tỷ ",9 lầu,20m,
+ 85 m,2 phòng ngủ," 2,4 tỷ ",20 lầu,,
+ 63 m,2 phòng ngủ," 2,95 tỷ ",17 lầu,4m,
+ 80 m,3 phòng ngủ," 2,5 tỷ ",7 lầu,20m,chỗ để xe
+ 95 m,3 phòng ngủ," 4,25 tỷ ",1 lầu,,
+ 63 m,2 phòng ngủ," 2,25 tỷ ",1 lầu,,
+ 91 m,3 phòng ngủ," 3,5 tỷ ",1 lầu,,
+ 76 m,2 phòng ngủ, 2 tỷ ,,,
+ 106 m,3 phòng ngủ," 4,2 tỷ ",5 lầu,20m,chỗ để xe
+ 60 m,2 phòng ngủ," 2,45 tỷ ",15 lầu,30m,
+ 121 m,3 phòng ngủ, 3 tỷ ,4 lầu,30m,
+ 76 m,3 phòng ngủ," 3,6 tỷ ",16 lầu,,
+ 71 m,2 phòng ngủ," 1,75 tỷ ",1 lầu,20m,chỗ để xe
+ 112 m,3 phòng ngủ," 3,25 tỷ ",1 lầu,10m,
+ 92 m,3 phòng ngủ," 2,9 tỷ ",25 lầu,10m,
+ 65 m,2 phòng ngủ," 2,83 tỷ ",18 lầu,12m,
+ 65 m,2 phòng ngủ," 1,75 tỷ ",1 lầu,,
+ 80 m,3 phòng ngủ," 2,45 tỷ ",6 lầu,,
+ 65 m,2 phòng ngủ," 2,25 tỷ ",1 lầu,30m,chỗ để xe
+ 106 m,3 phòng ngủ," 4,1 tỷ ",,,chỗ để xe
+ 95 m,3 phòng ngủ," 2,68 tỷ ",3 lầu,10m,chỗ để xe
+ 75 m,3 phòng ngủ, 2 tỷ ,1 lầu,3m,
+ 108 m,3 phòng ngủ, 5 tỷ ,16 lầu,8m,
+ 81 m,2 phòng ngủ," 2,6 tỷ ",1 lầu,10m,
+ 74 m,3 phòng ngủ," 2,1 tỷ ",1 lầu,10m,
+ 75 m,2 phòng ngủ," 2,8 tỷ ",1 lầu,20m,
+ 86 m,3 phòng ngủ," 2,32 tỷ ",,,
+ 71 m,2 phòng ngủ," 2,35 tỷ ",,,
+ 71 m,2 phòng ngủ," 1,75 tỷ ",26 lầu,,chỗ để xe
+ 66 m,2 phòng ngủ," 2,7 tỷ ",,,chỗ để xe
+ 60 m,2 phòng ngủ," 1,73 tỷ ",11 lầu,,
+ 79 m,2 phòng ngủ," 2,5 tỷ ",,,
+ 72 m,2 phòng ngủ," 2,88 tỷ ",1 lầu,8m,
+ 69 m,2 phòng ngủ," 1,8 tỷ ",15 lầu,,
+ 74 m,3 phòng ngủ," 1,95 tỷ ",43 lầu,,
+ 76 m,3 phòng ngủ," 1,98 tỷ ",9 lầu,20m,chỗ để xe
+ 64 m,4 phòng ngủ," 2,35 tỷ ",4 lầu,8m,
+ 82 m,3 phòng ngủ," 2,45 tỷ ",10 lầu,,
+ 78 m,2 phòng ngủ," 1,75 tỷ ",,,
+ 76 m,2 phòng ngủ," 2,3 tỷ ",,,
+ 76 m,2 phòng ngủ," 2,05 tỷ ",,,
+ 123 m,4 phòng ngủ, 29 triệu / m,19 lầu,,
+ 117 m,3 phòng ngủ," 3,39 tỷ ",27 lầu,,chỗ để xe
+ 65 m,2 phòng ngủ," 2,24 tỷ ",,,
+ 62 m,2 phòng ngủ," 2,8 tỷ ",,,
+ 76 m,2 phòng ngủ, 3 tỷ ,,4m,
+ 86 m,3 phòng ngủ," 2,25 tỷ ",1 lầu,4m,chỗ để xe
+ 54 m,2 phòng ngủ," 1,57 tỷ ",45 lầu,,
+ 76 m,3 phòng ngủ," 1,78 tỷ ",17 lầu,,
+ 130 m,3 phòng ngủ," 3,65 tỷ ",21 lầu,,
+ 65 m,2 phòng ngủ," 1,45 tỷ ",1 lầu,4m,
+ 89 m,3 phòng ngủ," 2,2 tỷ ",,,
+ 91 m,3 phòng ngủ," 3,8 tỷ ",,,
+ 76 m,2 phòng ngủ," 2,65 tỷ ",,,
+ 75 m,2 phòng ngủ," 2,15 tỷ ",,,
+ 74 m,2 phòng ngủ," 2,52 tỷ ",,6m,chỗ để xe
+ 60 m,2 phòng ngủ," 1,66 tỷ ",1 lầu,50m,
+ 70 m,3 phòng ngủ," 2,33 tỷ ",20 lầu,,chỗ để xe
+ 64 m,2 phòng ngủ," 2,35 tỷ ",15 lầu,,chỗ để xe
+ 90 m,3 phòng ngủ," 3,4 tỷ ",26 lầu,,chỗ để xe
+ 81 m,3 phòng ngủ," 1,8 tỷ ",,,
+ 83 m,3 phòng ngủ," 2,25 tỷ ",,,
+ 51 m,2 phòng ngủ, 41 triệu / m,10 lầu,,chỗ để xe
+ 100 m,3 phòng ngủ," 2,9 tỷ ",,,chỗ để xe
+ 40 m,2 phòng ngủ, 950 triệu ,2 lầu,5m,
+ 65 m,2 phòng ngủ," 1,65 tỷ ",40 lầu,,
+ 80 m,3 phòng ngủ," 2,999 tỷ ",19 lầu,,
+ 56 m,2 phòng ngủ," 1,33 tỷ ",25 lầu,,
+ 85 m,2 phòng ngủ," 3,6 tỷ ",20 lầu,,
+ 65 m,2 phòng ngủ," 1,85 tỷ ",42 lầu,1m,
+ 108 m,3 phòng ngủ," 5,5 tỷ ",19 lầu,,
+ 60 m,2 phòng ngủ," 2,28 tỷ ",5 lầu,,
+ 56 m,2 phòng ngủ," 1,45 tỷ ",28 lầu,,
+ 60 m,2 phòng ngủ," 1,63 tỷ ",,30m,chỗ để xe
+ 60 m,2 phòng ngủ," 1,3 tỷ ",,,chỗ để xe
+ 65 m,2 phòng ngủ," 1,66 tỷ ",28 lầu,,
+ 77 m,2 phòng ngủ," 2,7 tỷ ",15 lầu,,chỗ để xe
+ 67 m,2 phòng ngủ," 3,28 tỷ ",1 lầu,6m,
+ 65 m,2 phòng ngủ," 2,7 tỷ ",,6m,
+ 64 m,2 phòng ngủ," 1,4 tỷ ",1 lầu,30m,chỗ để xe
+ 92 m,3 phòng ngủ," 3,6 tỷ ",5 lầu,5m,chỗ để xe
+ 80 m,3 phòng ngủ," 2,42 tỷ ",10 lầu,,chỗ để xe
+ 75 m,3 phòng ngủ," 2,9 tỷ ",2 lầu,3m,chỗ để xe
+ 90 m,3 phòng ngủ," 4,1 tỷ ",35 lầu,,
+ 30 m,2 phòng ngủ, 950 triệu ,,,
+ 65 m,2 phòng ngủ," 1,43 tỷ ",,"4,5m",chỗ để xe
+ 60 m,2 phòng ngủ," 2,15 tỷ ",,,
+ 76 m,3 phòng ngủ, 46 triệu / m,16 lầu,,
+ 85 m,3 phòng ngủ," 2,8 tỷ ",10 lầu,15m,chỗ để xe
+ 75 m,2 phòng ngủ," 2,4 tỷ ",7 lầu,,
+ 80 m,2 phòng ngủ," 2,9 tỷ ",1 lầu,,
+ 77 m,3 phòng ngủ," 1,39 tỷ ",6 lầu,,
+ 69 m,2 phòng ngủ," 2,3 tỷ ",1 lầu,8m,chỗ để xe
+ 99 m,3 phòng ngủ, 3 tỷ ,,,chỗ để xe
+ 69 m,2 phòng ngủ," 1,89 tỷ ",,,
+ 80 m,3 phòng ngủ," 1,75 tỷ ",8 lầu,,
+ 64 m,2 phòng ngủ," 2,15 tỷ ",10 lầu,,
+ 74 m,3 phòng ngủ," 1,95 tỷ ",35 lầu,,
+ 63 m,2 phòng ngủ," 1,55 tỷ ",10 lầu,,
+ 132 m,3 phòng ngủ," 3,5 tỷ ",,,chỗ để xe
+ 82 m,2 phòng ngủ," 3,3 tỷ ",15 lầu,,chỗ để xe
+ 84 m,2 phòng ngủ," 2,5 tỷ ",16 lầu,,
+ 69 m,2 phòng ngủ," 1,95 tỷ ",,,
+ 55 m,2 phòng ngủ," 1,18 tỷ ",1 lầu,8m,
+ 81 m,2 phòng ngủ," 2,44 tỷ ",27 lầu,,
+ 50 m,2 phòng ngủ," 1,05 tỷ ",8 lầu,,chỗ để xe
+ 70 m,3 phòng ngủ," 1,95 tỷ ",3 lầu,,chỗ để xe
+ 82 m,3 phòng ngủ," 2,3 tỷ ",,,
+ 55 m,2 phòng ngủ," 1,55 tỷ ",42 lầu,,
+ 46 m,1 phòng ngủ," 1,12 tỷ ",1 lầu,12m,
+ 33 m,1 phòng ngủ, 600 triệu ,5 lầu,5m,
+ 88 m,3 phòng ngủ, 4 tỷ ,16 lầu,24m,
+ 71 m,2 phòng ngủ, 2 tỷ ,,,
+ 84 m,2 phòng ngủ," 2,65 tỷ ",11 lầu,,chỗ để xe
+ 56 m,2 phòng ngủ," 2,05 tỷ ",10 lầu,,
+ 56 m,2 phòng ngủ," 1,5 tỷ ",1 lầu,,
+ 70 m,2 phòng ngủ," 2,666 tỷ ",18 lầu,,chỗ để xe
+ 85 m,2 phòng ngủ," 2,65 tỷ ",9 lầu,0m,
+ 54 m,2 phòng ngủ," 1,2 tỷ ",6 lầu,,
+ 45 m,1 phòng ngủ," 1,23 tỷ ",28 lầu,,
+ 45 m,1 phòng ngủ," 1,25 tỷ ",28 lầu,,
+ 56 m,2 phòng ngủ," 1,78 tỷ ",15 lầu,,
+ 75 m,2 phòng ngủ," 3,1 tỷ ",,,
+ 68 m,2 phòng ngủ," 2,6 tỷ ",29 lầu,10m,chỗ để xe
+ 74 m,2 phòng ngủ, 2 tỷ ,17 lầu,,chỗ để xe
+ 55 m,2 phòng ngủ," 2,3 tỷ ",,,chỗ để xe
+ 80 m,2 phòng ngủ," 3,35 tỷ ",1 lầu,5m,
+ 45 m,1 phòng ngủ," 1,29 tỷ ",40 lầu,,
+ 68 m,2 phòng ngủ," 1,9 tỷ ",,,
+ 72 m,2 phòng ngủ," 2,95 tỷ ",,4m,
+ 56 m,2 phòng ngủ," 1,68 tỷ ",10 lầu,,
+ 71 m,2 phòng ngủ," 2,25 tỷ ",11 lầu,,
+ 56 m,2 phòng ngủ," 1,48 tỷ ",39 lầu,,
+ 86 m,3 phòng ngủ," 3,75 tỷ ",,15m,
+ 75 m,2 phòng ngủ," 2,3 tỷ ",1 lầu,,
+ 56 m,2 phòng ngủ," 1,55 tỷ ",,,
+ 71 m,2 phòng ngủ," 1,9 tỷ ",15 lầu,40m,
+ 107 m,3 phòng ngủ," 2,98 tỷ ",28 lầu,20m,
+ 46 m,2 phòng ngủ, 45 triệu / m,10 lầu,,chỗ để xe
+ 107 m,3 phòng ngủ," 2,9 tỷ ",1 lầu,,
+ 65 m,2 phòng ngủ," 2,4 tỷ ",18 lầu,5m,
+ 80 m,2 phòng ngủ, 41 triệu / m,16 lầu,,
+ 76 m,2 phòng ngủ," 1,3 tỷ ",1 lầu,,
+ 65 m,2 phòng ngủ," 2,4 tỷ ",6 lầu,30m,chỗ để xe
+ 141 m,3 phòng ngủ," 5,2 tỷ ",1 lầu,15m,chỗ để xe
+ 85 m,2 phòng ngủ," 3,2 tỷ ",20 lầu,,chỗ để xe
+ 96 m,3 phòng ngủ," 3,8 tỷ ",,,
+ 89 m,3 phòng ngủ," 3,4 tỷ ",27 lầu,,chỗ để xe
+ 55 m,2 phòng ngủ," 2,15 tỷ ",1 lầu,,
+ 80 m,2 phòng ngủ," 2,96 tỷ ",,,
+ 65 m,2 phòng ngủ," 1,55 tỷ ",23 lầu,,chỗ để xe
+ 75 m,3 phòng ngủ," 3,15 tỷ ",30 lầu,50m,chỗ để xe
+ 114 m,3 phòng ngủ," 4,6 tỷ ",,,
+ 96 m,3 phòng ngủ," 2,9 tỷ ",21 lầu,,
+ 60 m,2 phòng ngủ," 2,1 tỷ ",,,
+ 99 m,3 phòng ngủ, 4 tỷ ,7 lầu,45m,chỗ để xe
+ 93 m,3 phòng ngủ," 2,78 tỷ ",1 lầu,5m,chỗ để xe
+ 83 m,4 phòng ngủ, 30 triệu / m,,,
+ 106 m,3 phòng ngủ, 40 triệu / m,1 lầu,,chỗ để xe
+ 68 m,2 phòng ngủ," 2,38 tỷ ",,,
+ 60 m,2 phòng ngủ," 1,87 tỷ ",4 lầu,20m,
+ 54 m,2 phòng ngủ," 2,2 tỷ ",10 lầu,,
+ 90 m,3 phòng ngủ, 2 tỷ ,17 lầu,5m,chỗ để xe
+ 86 m,3 phòng ngủ," 4,05 tỷ ",14 lầu,,chỗ để xe
+ 130 m,4 phòng ngủ, 3 tỷ ,21 lầu,4m,chỗ để xe
+ 70 m,2 phòng ngủ, 2 tỷ ,1 lầu,2m,chỗ để xe
+ 81 m,3 phòng ngủ," 3,3 tỷ ",10 lầu,,
+ 128 m,3 phòng ngủ," 4,3 tỷ ",10 lầu,,
+ 83 m,3 phòng ngủ," 2,75 tỷ ",12 lầu,,
+ 80 m,3 phòng ngủ," 2,85 tỷ ",12 lầu,,
+ 86 m,2 phòng ngủ, 3 tỷ ,1 lầu,15m,chỗ để xe
+ 81 m,3 phòng ngủ, 3 tỷ ,1 lầu,20m,chỗ để xe
+ 131 m,3 phòng ngủ," 4,6 tỷ ",15 lầu,,
+ 125 m,3 phòng ngủ," 3,3 tỷ ",15 lầu,8m,chỗ để xe
+ 93 m,2 phòng ngủ," 3,3 tỷ ",16 lầu,,chỗ để xe
+ 85 m,2 phòng ngủ, 30 triệu / m,19 lầu,,chỗ để xe
+ 71 m,2 phòng ngủ," 1,8 tỷ ",25 lầu,,
+ 57 m,2 phòng ngủ," 1,35 tỷ ",2 lầu,,
+ 76 m,2 phòng ngủ," 2,8 tỷ ",21 lầu,20m,
+ 130 m,4 phòng ngủ," 3,8 tỷ ",10 lầu,20m,chỗ để xe
+ 90 m,3 phòng ngủ, 2 tỷ ,,5m,
+ 76 m,3 phòng ngủ," 3,7 tỷ ",16 lầu,8m,chỗ để xe
+ 70 m,2 phòng ngủ," 2,2 tỷ ",1 lầu,10m,
+ 90 m,2 phòng ngủ," 3,3 tỷ ",30 lầu,,
+ 85 m,2 phòng ngủ," 2,7 tỷ ",1 lầu,3m,chỗ để xe
+ 98 m,2 phòng ngủ," 2,25 tỷ ",1 lầu,3m,
+ 100 m,3 phòng ngủ," 4,4 tỷ ",29 lầu,30m,chỗ để xe
+ 130 m,3 phòng ngủ," 3,8 tỷ ",18 lầu,20m,chỗ để xe
+ 74 m,2 phòng ngủ," 2,5 tỷ ",7 lầu,20m,chỗ để xe
+ 95 m,3 phòng ngủ," 2,55 tỷ ",16 lầu,50m,
+ 95 m,3 phòng ngủ," 3,4 tỷ ",,0m,chỗ để xe
+ 130 m,3 phòng ngủ," 3,8 tỷ ",18 lầu,5m,
+ 121 m,9 phòng ngủ," 3,5 tỷ ",9 lầu,30m,chỗ để xe
+ 32 m,1 phòng ngủ, 700 triệu ,3 lầu,5m,chỗ để xe
+ 30 m,1 phòng ngủ, 690 triệu ,3 lầu,,chỗ để xe
+ 30 m,1 phòng ngủ, 595 triệu ,3 lầu,5m,chỗ để xe
+ 54 m,2 phòng ngủ," 1,35 tỷ ",45 lầu,,
+ 128 m,3 phòng ngủ," 4,5 tỷ ",29 lầu,25m,chỗ để xe
+ 71 m,2 phòng ngủ," 2,3 tỷ ",,,chỗ để xe
+ 100 m,3 phòng ngủ," 2,57 tỷ ",5 lầu,10m,chỗ để xe
+ 72 m,2 phòng ngủ," 1,67 tỷ ",,15m,
+ 106 m,3 phòng ngủ, 28 triệu / m,,,
+ 107 m,3 phòng ngủ," 3,26 tỷ ",6 lầu,20m,chỗ để xe
+ 68 m,9 phòng ngủ," 3,25 tỷ ",8 lầu,,chỗ để xe
+ 94 m,3 phòng ngủ," 3,68 tỷ ",15 lầu,20m,chỗ để xe
+ 65 m,2 phòng ngủ," 2,68 tỷ ",1 lầu,18m,chỗ để xe
+ 80 m,3 phòng ngủ," 2,62 tỷ ",,20m,chỗ để xe
+ 78 m,3 phòng ngủ," 2,08 tỷ ",20 lầu,70m,chỗ để xe
+ 78 m,2 phòng ngủ," 2,9 tỷ ",10 lầu,30m,chỗ để xe
+ 90 m,3 phòng ngủ, 28 triệu / m,27 lầu,40m,
+ 45 m,6 phòng ngủ," 1,7 tỷ ",4 lầu,1m,chỗ để xe
+ 94 m,2 phòng ngủ," 3,2 tỷ ",12 lầu,7m,
+ 87 m,2 phòng ngủ," 2,4 tỷ ",21 lầu,,
+ 90 m,3 phòng ngủ," 2,6 tỷ ",8 lầu,40m,
+ 82 m,2 phòng ngủ," 3,43 tỷ ",8 lầu,12m,chỗ để xe
+ 50 m,2 phòng ngủ, 16 triệu / m,1 lầu,,
+ 46 m,1 phòng ngủ," 1,1 tỷ ",,,
+ 93 m,2 phòng ngủ," 3,3 tỷ ",16 lầu,,
+ 82 m,3 phòng ngủ," 2,7 tỷ ",11 lầu,,chỗ để xe
+ 100 m,3 phòng ngủ," 3,68 tỷ ",6 lầu,,chỗ để xe
+ 42 m,7 phòng ngủ," 4,35 tỷ ",5 lầu,4m,chỗ để xe
+ 83 m,3 phòng ngủ," 2,65 tỷ ",10 lầu,,
+ 74 m,2 phòng ngủ," 2,5 tỷ ",,,chỗ để xe
+ 68 m,2 phòng ngủ," 2,25 tỷ ",,,chỗ để xe
+ 77 m,2 phòng ngủ," 2,55 tỷ ",,,
+ 76 m,2 phòng ngủ," 2,6 tỷ ",,,
+ 81 m,2 phòng ngủ," 2,55 tỷ ",,,chỗ để xe
+ 77 m,2 phòng ngủ," 3,3 tỷ ",28 lầu,6m,chỗ để xe
+ 59 m,2 phòng ngủ," 2,1 tỷ ",1 lầu,30m,chỗ để xe
+ 74 m,2 phòng ngủ," 2,5 tỷ ",1 lầu,30m,chỗ để xe
+ 67 m,2 phòng ngủ," 2,12 tỷ ",1 lầu,15m,
+ 91 m,3 phòng ngủ," 3,5 tỷ ",20 lầu,10m,chỗ để xe
+ 100 m,3 phòng ngủ," 3,65 tỷ ",6 lầu,,chỗ để xe
+ 90 m,2 phòng ngủ," 3,3 tỷ ",19 lầu,4m,chỗ để xe
+ 130 m,3 phòng ngủ," 3,75 tỷ ",18 lầu,15m,chỗ để xe
+ 95 m,3 phòng ngủ," 2,6 tỷ ",,,
+ 76 m,2 phòng ngủ," 3,09 tỷ ",,,
+ 68 m,2 phòng ngủ," 1,9 tỷ ",1 lầu,50m,chỗ để xe
+ 100 m,4 phòng ngủ," 3,7 tỷ ",3 lầu,,chỗ để xe
+ 81 m,3 phòng ngủ," 2,13 tỷ ",1 lầu,12m,
+ 100 m,3 phòng ngủ," 2,68 tỷ ",1 lầu,12m,
+ 72 m,2 phòng ngủ," 2,9 tỷ ",10 lầu,12m,
+ 75 m,2 phòng ngủ," 2,56 tỷ ",10 lầu,6m,chỗ để xe
+ 55 m,2 phòng ngủ," 1,65 tỷ ",40 lầu,6m,chỗ để xe
+ 81 m,3 phòng ngủ," 3,36 tỷ ",10 lầu,6m,chỗ để xe
+ 66 m,2 phòng ngủ," 2,08 tỷ ",9 lầu,4m,chỗ để xe
+ 94 m,3 phòng ngủ," 3,75 tỷ ",20 lầu,5m,chỗ để xe
+ 90 m,3 phòng ngủ," 2,55 tỷ ",7 lầu,,chỗ để xe
+ 90 m,3 phòng ngủ," 3,36 tỷ ",8 lầu,3m,
+ 91 m,3 phòng ngủ," 3,5 tỷ ",1 lầu,12m,chỗ để xe
+ 85 m,3 phòng ngủ," 2,15 tỷ ",15 lầu,,
+ 85 m,2 phòng ngủ," 3,1 tỷ ",1 lầu,20m,chỗ để xe
+ 81 m,2 phòng ngủ," 3,3 tỷ ",1 lầu,20m,chỗ để xe
+ 82 m,3 phòng ngủ," 3,28 tỷ ",5 lầu,2m,chỗ để xe
+ 79 m,2 phòng ngủ," 2,7 tỷ ",,,
+ 57 m,2 phòng ngủ," 2,65 tỷ ",23 lầu,8m,
+ 110 m,3 phòng ngủ," 4,55 tỷ ",4 lầu,5m,
+ 90 m,3 phòng ngủ," 3,58 tỷ ",17 lầu,8m,
+ 78 m,2 phòng ngủ," 2,57 tỷ ",15 lầu,8m,
+ 63 m,2 phòng ngủ," 1,68 tỷ ",6 lầu,12m,
+ 75 m,2 phòng ngủ," 2,5 tỷ ",7 lầu,19m,chỗ để xe
+ 112 m,3 phòng ngủ," 4,5 tỷ ",6 lầu,9m,
+ 81 m,3 phòng ngủ," 1,8 tỷ ",7 lầu,19m,chỗ để xe
+ 60 m,2 phòng ngủ," 1,65 tỷ ",24 lầu,5m,chỗ để xe
+ 54 m,2 phòng ngủ," 1,65 tỷ ",8 lầu,5m,chỗ để xe
+ 115 m,3 phòng ngủ," 2,89 tỷ ",1 lầu,6m,chỗ để xe
+ 128 m,3 phòng ngủ," 4,49 tỷ ",1 lầu,8m,chỗ để xe
+ 88 m,3 phòng ngủ," 2,45 tỷ ",1 lầu,8m,chỗ để xe
+ 100 m,3 phòng ngủ," 3,69 tỷ ",1 lầu,6m,chỗ để xe
+ 86 m,2 phòng ngủ," 1,69 tỷ ",1 lầu,5m,chỗ để xe
+ 76 m,2 phòng ngủ," 2,75 tỷ ",3 lầu,2m,chỗ để xe
+ 82 m,2 phòng ngủ," 2,52 tỷ ",6 lầu,6m,chỗ để xe
+ 65 m,2 phòng ngủ, 25 triệu / m,42 lầu,,
+ 54 m,2 phòng ngủ, 24 triệu / m,25 lầu,,
+ 84 m,2 phòng ngủ," 2,61 tỷ ",9 lầu,15m,
+ 76 m,2 phòng ngủ," 2,97 tỷ ",21 lầu,10m,
+ 74 m,2 phòng ngủ," 2,9 tỷ ",29 lầu,,chỗ để xe
+ 79 m,2 phòng ngủ," 3,2 tỷ ",1 lầu,,
+ 103 m,2 phòng ngủ," 2,78 tỷ ",1 lầu,,
+ 64 m,2 phòng ngủ," 2,35 tỷ ",15 lầu,,
+ 58 m,2 phòng ngủ," 1,55 tỷ ",1 lầu,0m,
+ 62 m,2 phòng ngủ," 2,85 tỷ ",,,
+ 123 m,3 phòng ngủ," 4,8 tỷ ",20 lầu,30m,chỗ để xe
+ 86 m,2 phòng ngủ, 30 triệu / m,19 lầu,,chỗ để xe
+ 79 m,2 phòng ngủ," 2,34 tỷ ",1 lầu,4m,chỗ để xe
+ 118 m,3 phòng ngủ," 2,79 tỷ ",22 lầu,8m,
+ 80 m,10 phòng ngủ," 10,7 tỷ ",6 lầu,"3,5m",
+ 114 m,3 phòng ngủ," 3,39 tỷ ",1 lầu,10m,chỗ để xe
+ 45 m,2 phòng ngủ, 680 triệu ,5 lầu,,
+ 92 m,3 phòng ngủ," 2,9 tỷ ",30 lầu,30m,chỗ để xe
