@@ -51,8 +51,8 @@ weighted_kneighbors_mse = mean_squared_error(y_test, weighted_kneighbors_preds)
 
 # Create a dictionary of MSE for each method
 mse_data = {
-    'Method': ['Linear Regression', 'Ridge', 'Lasso', 'Random Forest', 'KNeighbors', 'Weighted KNeighbors'],
-    'MSE (negative)': [-linear_regression_mse, -ridge_mse, -lasso_mse, -random_forest_mse, -kneighbors_mse, -weighted_kneighbors_mse]
+    'Method': ['Linear Regression', 'Ridge', 'Lasso', 'KNeighbors', 'Weighted KNeighbors', 'Random Forest'],
+    'MSE (negative)': [-linear_regression_mse, -ridge_mse, -lasso_mse, -kneighbors_mse, -weighted_kneighbors_mse, -random_forest_mse]
 }
 
 # Create a DataFrame from the MSE data
@@ -62,9 +62,9 @@ mse_df = pd.DataFrame(mse_data)
 print(mse_df)
 
 # Box plot of negative squared errors
-methods = ['Linear Regression', 'Ridge', 'Lasso', 'Random Forest', 'KNeighbors', 'Weighted KNeighbors']
+methods = ['Linear Regression', 'Ridge', 'Lasso', 'KNeighbors', 'Weighted KNeighbors', 'Random Forest']
 errors = [-(linear_regression_preds - y_test)**2, -(ridge_preds - y_test)**2, -(lasso_preds - y_test)**2,
-          -(random_forest_preds - y_test)**2, -(kneighbors_preds - y_test)**2, -(weighted_kneighbors_preds - y_test)**2]
+          -(kneighbors_preds - y_test)**2, -(weighted_kneighbors_preds - y_test)**2, -(random_forest_preds - y_test)**2]
 
 fig, ax = plt.subplots(figsize=(10, 24))
 bp = ax.boxplot(errors, patch_artist=True, medianprops={'color': 'black'})
