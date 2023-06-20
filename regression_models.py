@@ -1,184 +1,82 @@
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import *
-from sklearn.linear_model import *
-from sklearn.neighbors import KNeighborsRegressor
+import numpy as np
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
 
-# import the dataset.
-data = pd.read_csv("dataset.csv")
-x = data.drop("price", axis=1)
-y = data["price"]
-# split the dataset in to training and testing set
-x_train, x_test, y_train, y_test = train_test_split(
-    x, y, test_size=0.2, random_state=28
-)
+# Load the dataset
+data = pd.read_csv('dataset.csv')
 
+# Separate the features (X) and target variable (y)
+X = data.drop('price', axis=1)
+y = data['price']
 
-def ridge_regression(x_train, x_test, y_train, y_test, n):
-    model = Ridge(alpha=n / 10)
+# Split the data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # train the model
-    model.fit(x_train, y_train)
+# Initialize the models
+linear_regression = LinearRegression()
+ridge = Ridge(alpha=0.5)
+lasso = Lasso(alpha=0.5)
+random_forest = RandomForestRegressor(random_state=42)
+kneighbors = KNeighborsRegressor()
+weighted_kneighbors = KNeighborsRegressor(weights='distance')
 
-    # calculate the MAPE
-    y_pred = model.predict(x_test)
-    y_pred_rounded = [round(result, 2) for result in y_pred]
-    mape = float(
-        "{:.2f}".format(100 * mean_absolute_percentage_error(y_test, y_pred_rounded))
-    )
+# Fit the models
+linear_regression.fit(X_train, y_train)
+ridge.fit(X_train, y_train)
+lasso.fit(X_train, y_train)
+random_forest.fit(X_train, y_train)
+kneighbors.fit(X_train, y_train)
+weighted_kneighbors.fit(X_train, y_train)
 
-    return y_pred_rounded, mape
+# Predict on the test set
+linear_regression_preds = linear_regression.predict(X_test)
+ridge_preds = ridge.predict(X_test)
+lasso_preds = lasso.predict(X_test)
+random_forest_preds = random_forest.predict(X_test)
+kneighbors_preds = kneighbors.predict(X_test)
+weighted_kneighbors_preds = weighted_kneighbors.predict(X_test)
 
+# Calculate Mean Squared Errors
+linear_regression_mse = mean_squared_error(y_test, linear_regression_preds)
+ridge_mse = mean_squared_error(y_test, ridge_preds)
+lasso_mse = mean_squared_error(y_test, lasso_preds)
+random_forest_mse = mean_squared_error(y_test, random_forest_preds)
+kneighbors_mse = mean_squared_error(y_test, kneighbors_preds)
+weighted_kneighbors_mse = mean_squared_error(y_test, weighted_kneighbors_preds)
 
-def lasso_regression(x_train, x_test, y_train, y_test, n):
-    model = Lasso(alpha=n / 10)
+# Create a dictionary of MSE for each method
+mse_data = {
+    'Method': ['Linear Regression', 'Ridge', 'Lasso', 'Random Forest', 'KNeighbors', 'Weighted KNeighbors'],
+    'MSE (negative)': [-linear_regression_mse, -ridge_mse, -lasso_mse, -random_forest_mse, -kneighbors_mse, -weighted_kneighbors_mse]
+}
 
-    # train the model
-    model.fit(x_train, y_train)
+# Create a DataFrame from the MSE data
+mse_df = pd.DataFrame(mse_data)
 
-    # calculate the MAPE
-    y_pred = model.predict(x_test)
-    y_pred_rounded = [round(result, 2) for result in y_pred]
-    mape = float(
-        "{:.2f}".format(100 * mean_absolute_percentage_error(y_test, y_pred_rounded))
-    )
+# Print the MSE table
+print(mse_df)
 
-    return y_pred_rounded, mape
+# Box plot of negative squared errors
+methods = ['Linear Regression', 'Ridge', 'Lasso', 'Random Forest', 'KNeighbors', 'Weighted KNeighbors']
+errors = [-(linear_regression_preds - y_test)**2, -(ridge_preds - y_test)**2, -(lasso_preds - y_test)**2,
+          -(random_forest_preds - y_test)**2, -(kneighbors_preds - y_test)**2, -(weighted_kneighbors_preds - y_test)**2]
 
+fig, ax = plt.subplots(figsize=(10, 24))
+bp = ax.boxplot(errors, patch_artist=True, medianprops={'color': 'black'})
 
-def k_neighbor_regression_unweighted(x_train, x_test, y_train, y_test, n):
-    model = KNeighborsRegressor(n_neighbors=n, weights="uniform")
+colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']
+for patch, color in zip(bp['boxes'], colors):
+    patch.set_facecolor(color)
 
-    # train the model
-    model.fit(x_train, y_train)
+ax.set_xticklabels(methods, rotation=45)
+ax.set_xlabel('Methods')
+ax.set_ylabel('Negative Squared Error')
+ax.set_title('Comparison of Negative Squared Error for Different Methods')
 
-    # calculate the MAPE
-    y_pred = model.predict(x_test)
-    y_pred_rounded = [round(result, 2) for result in y_pred]
-    mape = float(
-        "{:.2f}".format(100 * mean_absolute_percentage_error(y_test, y_pred_rounded))
-    )
-
-    return y_pred_rounded, mape
-
-
-def k_neighbor_regression_weighted(x_train, x_test, y_train, y_test, n):
-    model = KNeighborsRegressor(n_neighbors=n, weights="distance")
-
-    # train the model
-    model.fit(x_train, y_train)
-
-    # calculate the MAPE
-    y_pred = model.predict(x_test)
-    y_pred_rounded = [round(result, 2) for result in y_pred]
-    mape = float(
-        "{:.2f}".format(100 * mean_absolute_percentage_error(y_test, y_pred_rounded))
-    )
-
-    return y_pred_rounded, mape
-
-
-def random_forest_regression(x_train, x_test, y_train, y_test, n):
-    model = RandomForestRegressor(max_depth=n)
-
-    # train the model
-    model.fit(x_train, y_train)
-
-    # calculate the MAPE
-    y_pred = model.predict(x_test)
-    y_pred_rounded = [round(result, 2) for result in y_pred]
-    mape = float(
-        "{:.2f}".format(100 * mean_absolute_percentage_error(y_test, y_pred_rounded))
-    )
-
-    return y_pred_rounded, mape
-
-
-# plot graphs
-def lr_graph():
-    lr_result = []
-
-    for i in range(1, 21):
-        lr_result.append(
-            [
-                i,
-                ridge_regression(x_train, x_test, y_train, y_test, i)[1],
-                lasso_regression(x_train, x_test, y_train, y_test, i)[1],
-            ]
-        )
-
-    constant = [row[0] / 10 for row in lr_result]
-    ridge = [row[1] for row in lr_result]
-    lasso = [row[2] for row in lr_result]
-
-    plt.plot(constant, ridge, label="Ridge")
-    plt.plot(constant, lasso, label="LASSO")
-    plt.legend()
-    plt.title("Figure 1. Accuracy of Ridge and LASSO regression")
-    plt.xlabel("λ")
-    plt.ylabel("Mean Absolute Percentage Error (%)")
-    plt.show()
-
-
-def knr_graph():
-    knr_result = []
-
-    for i in range(1, 51):
-        knr_result.append(
-            [
-                i,
-                k_neighbor_regression_unweighted(x_train, x_test, y_train, y_test, i)[
-                    1
-                ],
-                k_neighbor_regression_weighted(x_train, x_test, y_train, y_test, i)[1],
-            ]
-        )
-
-    k = [row[0] for row in knr_result]
-    knru = [row[1] for row in knr_result]
-    knrw = [row[2] for row in knr_result]
-    # plot
-    plt.plot(k, knru, label="Uniform weight")
-    plt.plot(k, knrw, label="Distance weight")
-    plt.legend()
-    plt.title("Figure 2. Accuracy of k-nearest neighbors regression using Euclidean distance")
-    plt.xlabel("k")
-    plt.ylabel("Mean Absolute Percentage Error (%)")
-    plt.show()
-
-
-def rfr_graph():
-    rfr_result = []
-
-    for i in range(2, 101):
-        rfr_result.append(
-            [i, random_forest_regression(x_train, x_test, y_train, y_test, i)[1]]
-        )
-
-    max_depth = [row[0] for row in rfr_result]
-    rfr = [row[1] for row in rfr_result]
-
-    plt.plot(max_depth, rfr)
-    plt.title("Figure 3. Accuracy of random forest regression using 100 tree")
-    plt.xlabel("Maximum depth of a tree")
-    plt.ylabel("Mean Absolute Percentage Error (%)")
-    plt.show()
-
-
-def main():
-    a = input(
-        "Press a number to see the graph. "
-        "[1] Linear Regression; [2] K-nearest Neighbors Regression; [3] Random Forest Regression: "
-    )
-    if a == "1":
-        lr_graph()
-    if a == "2":
-        knr_graph()
-    if a == "3":
-        rfr_graph()
-
-
-main()
+# Show the plot
+plt.show()
