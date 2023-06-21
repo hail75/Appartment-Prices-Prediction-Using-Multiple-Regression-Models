@@ -22,8 +22,8 @@ linear_regression = LinearRegression()
 ridge = Ridge(alpha=0.5)
 lasso = Lasso(alpha=0.5)
 random_forest = RandomForestRegressor(random_state=42)
-kneighbors = KNeighborsRegressor()
-weighted_kneighbors = KNeighborsRegressor(weights='distance')
+kneighbors = KNeighborsRegressor(n_neighbors=15)
+weighted_kneighbors = KNeighborsRegressor(n_neighbors=15, weights='distance')
 
 # Fit the models
 linear_regression.fit(X_train, y_train)
