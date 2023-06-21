@@ -31,7 +31,6 @@ grid_search.fit(x_train, y_train)
 
 # Print the best parameters and best MSE
 print("Best Parameters: ", grid_search.best_params_)
-print("Best MSE: ", -grid_search.best_score_)
 
 # Use the best model for predictions
 best_model = grid_search.best_estimator_
