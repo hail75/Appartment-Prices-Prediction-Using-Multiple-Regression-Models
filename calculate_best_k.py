@@ -12,7 +12,7 @@ x = data.drop('price', axis=1)
 y = data['price']
 
 # Split the data into training and test sets
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42, shuffle=True)
 
 # Define a range of k values to evaluate
 k_values = range(1, 21)  # Example range: 1 to 20
