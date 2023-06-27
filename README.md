@@ -7,9 +7,9 @@ Comparative analysis of linear regression, k-nearest neighbors regression, and r
 ## Tutorial
 
 * You need to installed Python.
-* Required libraries: numpy, pandas, mathplotlib, seaborn, sklearn.
+* Required libraries: `numpy`, `pandas`, `mathplotlib`, `seaborn`, `sklearn`.
 * Install and unzip the repository.
-* Run cmd in the unzipped folder.
+* Run `cmd` terminal in the extracted folder.
 * Type `python regression_models.py` and press 'Enter'.
 
 ## Contributors
